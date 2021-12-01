@@ -45,28 +45,24 @@
         <br />
     </header>
     <div style="width: 100%;">
-        <div style="width: 25%; height: 800px; float: left; background: gray;">
-            Left Div
+        <div style="width: 25%; height: 800px; float: left; background: gray; padding: 10px;">
+            <h1>Search for a City:</h1>
+            <form id="target">
+                <input type="text" class="form-control" id="city-input" placeholder="Atlanta">
+                <input type="submit" class="btn btn-primary" id="city-submit" style="width: 100%;" value="Search">
+            </form>
+
+            <ul class="list-group" id="search-history"></ul>
         </div>
-        <div style="margin-left: 25%; height: 400px; background:slategray;">
+        <div style="margin-left: 25%; height: 400px; background:slategray; padding: 10px;" id="right-div">
             Right Div
         </div>
-        <div style="margin-left: 25%; height: 400px; background:black;">
+        <div style="margin-left: 25%; height: 400px; background:black; padding: 10px;">
             Right Div
         </div>
     </div>
 </body>
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-
-</body>
-<script src="assets/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./assets/js/script.js"></script>
 
 </html>
