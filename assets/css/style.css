@@ -1,3 +1,7 @@
 .list-group-item-secondary {
     margin-top: 10px;
 }
+
+.card-body {
+    padding: 0.75rem
+}
